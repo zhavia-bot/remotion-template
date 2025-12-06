@@ -1,0 +1,3 @@
+template_id = "remotion-starter"
+template_name = "remotion-starter"
+start_cmd = "pnpm run dev"

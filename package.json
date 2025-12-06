@@ -1,0 +1,28 @@
+{
+  "name": "@animation-starter/remotion-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-template": "e2b template build --name remotion-starter",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@remotion/player": "^4.0.252",
+    "remotion": "^4.0.252",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@animation-starter/tsconfig": "workspace:*",
+    "@remotion/cli": "^4.0.252",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3",
+    "typescript": "^5.7.2",
+    "@types/node": "^20.0.0"
+  }
+}
