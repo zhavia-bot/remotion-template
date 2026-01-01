@@ -13,7 +13,7 @@ export const RootComposition: React.FC = () => {
         backgroundColor: "#fff",
       }}
     >
-      <div>Hello World from Remotion!</div>
+      <div>Hello World!</div>
       <div style={{ fontSize: 40, marginTop: 20 }}>
         Frame {frame} ({Math.round(frame / fps)}s)
       </div>
