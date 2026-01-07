@@ -1,7 +1,7 @@
 import { Player } from "@remotion/player";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { RootComposition } from "./Root";
+import { RootComposition } from "./compositions";
 
 const rootElement = document.getElementById("root");
 if (!rootElement) {

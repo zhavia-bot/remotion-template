@@ -1,6 +1,7 @@
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
+import { AnimatedText } from "../components/AnimatedText";
 
-export const RootComposition: React.FC = () => {
+export const Root: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -13,7 +14,7 @@ export const RootComposition: React.FC = () => {
         backgroundColor: "#fff",
       }}
     >
-      <div>Hello World!</div>
+      <AnimatedText text="Hello World!" startFrame={0} durationInFrames={30} />
       <div style={{ fontSize: 40, marginTop: 20 }}>
         Frame {frame} ({Math.round(frame / fps)}s)
       </div>
